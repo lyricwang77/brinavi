@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      host: {{ mongoUrl }}
+      port: 27017
+      database: {{ mongoDBName }}
+      username: {{ mongoUsername }}
+      password: {{ mongoPassword }}
+      authentication-database: admin
